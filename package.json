@@ -1,0 +1,19 @@
+{
+  "name": "banking_exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+<<<<<<< HEAD
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+=======
+>>>>>>> fd52b477a525e76101ad4d05035f1269ae80b659
+    "mongoose": "^5.10.10"
+  }
+}
