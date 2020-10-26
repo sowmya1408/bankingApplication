@@ -10,6 +10,7 @@ router.get('/', async (req, res) => {
     };
 });
 
+
 //Endpoint for adding user
 router.post('/', async (req, res) => {
     const account = {
@@ -25,5 +26,12 @@ router.post('/', async (req, res) => {
 });
 
 // Implement a new endpoint, that will be able to return a specific account by id. 
+router.get('/:id', async (req, res) => {
+    try {
+        res.end("This is the GET endpoint for specific customer accounts")
+    } catch (err) {
+        console.log({ message: err })
+    };
+});
 
 module.exports = router;
