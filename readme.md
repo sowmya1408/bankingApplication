@@ -107,6 +107,7 @@ Som i har lært i jeres undervisning, er en "Network Socket", blot et stykke sof
 ## 4. Aflevering
 
 I `3_handin_template`skal i lave jeres aflevering. Her sætter vi de to øvelser sammen, så ledes at i ved at ramme forskellige endpoints kan hente og redigere data i jeres database. 
+Igen: aflveringen ligger her på canvas: https://cbscanvas.instructure.com/courses/11500/assignments/12356
 
 1. Hvis I har lavet database opgaverne korrekt, kan i overskrive `3_handin_template/models/account.js`med indholdet i har i `2_database/accounts.js`.
 2. Lige så, hvis i har lavet express opgaverne korrekt, kan i overskrive `3_handin_template/routes/accounts.js`med indholdet i `1_express_api/routes/accounts.js`. 
